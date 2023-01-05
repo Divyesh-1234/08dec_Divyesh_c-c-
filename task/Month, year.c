@@ -7,7 +7,7 @@ int main()
     printf("Enter the number of month:");
     scanf("%f",&month);
     year=month/12;
-    printf("Number of the month is:%f",year);
+    printf("Number of the year is:%f",year);
     
     return 0;
 }
