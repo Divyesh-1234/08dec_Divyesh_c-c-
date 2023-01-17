@@ -3,8 +3,6 @@ int main()
 {
     int eng,hindi,guj,ss,com,total;
     float per;
-    
-
     printf("enter eng mark:");
     scanf("%d",&eng);
     printf("enter hindi mark:");
@@ -23,23 +21,19 @@ int main()
         printf("\ntotal per:%f",per); 
     if(per>75)
     {
-        printf("\ndistinction");
-        
+        printf("\ndistinction");   
     }
     else if ((per>60)&(per<=75))
     {
         printf("\nfirst class");
-    
     }
     else if((per>50)&(per<=60))
     {
         printf("\nsecond class");
-    
     }
     else if ((per>35)&(per<=50))
     {
         printf("\npass class");
-    
     }
     }
     else
