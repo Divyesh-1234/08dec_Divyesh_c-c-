@@ -17,8 +17,10 @@ int main()
     scanf("%d",&com);
     total=eng+hindi+guj+ss+com;
     per=total/5;
-    printf("\ntotal mark:%d",total);
-    printf("\ntotal per:%f",per);
+    if(eng>=33&&hindi>=33&&guj>=33&&ss>=33&&com>=33)
+    {
+        printf("\ntotal mark:%d",total);
+        printf("\ntotal per:%f",per); 
     if(per>75)
     {
         printf("\ndistinction");
@@ -39,12 +41,11 @@ int main()
         printf("\npass class");
     
     }
+    }
     else
     {
         printf("\nfail");
         
     }
     return 0;
-    
-    
 }
