@@ -3,8 +3,8 @@ int main( )
 {
 int i,j,k,l;
 int cha;
-Printf("Enter the character :");
-Scanf("%c",&cha)
+printf("Enter the character :");
+scanf("%c",&cha);
 for(i=0;i<=11;i++)
 {
 for(j=10;j>=i;j--)
@@ -19,7 +19,7 @@ for(l=1;l<=i;l++)
 {
 if(i>4&&i<7)
 {
-printf("%c%c",cha cha);  
+printf("%c%c",cha,cha);  
 }
 else
 {
