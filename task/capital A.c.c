@@ -2,6 +2,9 @@
 int main( )   
 {
 int i,j,k,l;
+int cha;
+Printf("Enter the character :");
+Scanf("%c",&cha)
 for(i=0;i<=11;i++)
 {
 for(j=10;j>=i;j--)
@@ -10,13 +13,13 @@ printf(" ");
 }
 for(k=0;k<=2;k++)
 {
-printf("*"); 
+printf("%c",cha); 
  }
 for(l=1;l<=i;l++)
 {
 if(i>4&&i<7)
 {
-printf("**");  
+printf("%c%c",cha cha);  
 }
 else
 {
@@ -25,7 +28,7 @@ printf("  ");
 }
 for(k=0;k<=2;k++)
 {
-printf("*");
+printf("%c",cha);
 }
 for(j=10;j>=i;j--)
 {
